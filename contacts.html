@@ -32,57 +32,66 @@
                 <hr class="navbar-nav text-dark">
                 <div class="pt-3 py-xl-0 d-flex justify-content-center">
                     <a href="https://wa.me/77777512121" class="text-decoration-none px-2">
-                        <button class="btn1 btn-primary d-flex "><i class="bi bi-bag-fill text-white"></i>&nbsp; Order</button>
+                        <button class="btn btn-primary d-flex "><i class="bi bi-bag-fill text-white"></i>&nbsp; Order</button>
                     </a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="py-5">
-        <div class="container py-5">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <p class="fw-bold text-success mb-2">Contacts</p>
-                    <h2 class="fw-bold">How you can reach us</h2>
+    <div class="container py-4">
+        <h1 class="fw-bold text-center text-uppercase">contacts</h1>
+    </div>
+
+    <section class="container bg-primary-gradient py-4 my-3">
+        <div class="row d-flex justify-content-center py-md-5">
+            <div class="col-md-6 col-xl-4">
+                <div>
+                    <form class="p-3 p-xl-4" method="post">
+                        <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name"></div>
+                        <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
+                        <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
+                        <div><button class="btn btn-primary shadow d-block w-100" type="submit">Send </button></div>
+                    </form>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6 col-xl-4">
-                    <div>
-                        <form class="p-3 p-xl-4" method="post">
-                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name"></div>
-                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
-                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
-                            <div><button class="btn btn-primary shadow d-block w-100" type="submit">Send </button></div>
-                        </form>
+            <div class="col-md-4 col-xl-4 d-flex justify-content-center justify-content-xl-start">
+                <div class="d-flex flex-wrap flex-column justify-content-md-start align-items-md-start h-100">
+                    <div class="d-flex align-items-center p-3">
+                        <i class="bi bi-telephone"></i>
+                        <div class="px-3">
+                            <h6 class="fw-bold mb-0">Phone</h6>
+                            <p class="text-muted mb-0">+7 (777) 751 21 21</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-xl-4 d-flex justify-content-center justify-content-xl-start">
-                    <div class="d-flex flex-wrap flex-md-column justify-content-md-start align-items-md-start h-100">
-                        <div class="d-flex align-items-center p-3">
-                            <i class="bi bi-telephone"></i>
-                            <div class="px-2">
-                                <h6 class="fw-bold mb-0">Phone</h6>
-                                <p class="text-muted mb-0">+7 (777) 751 21 21</p>
-                            </div>
+                    <div class="d-flex align-items-center p-3">
+                        <i class="bi bi-mailbox"></i>
+                        <div class="px-3">
+                            <h6 class="fw-bold mb-0">Email</h6>
+                            <p class="text-muted mb-0">azharbayev@gmail.com</p>
                         </div>
-                        <div class="d-flex align-items-center p-3">
-                            <i class="bi bi-mailbox"></i>
-                            <div class="px-2">
-                                <h6 class="fw-bold mb-0">Email</h6>
-                                <p class="text-muted mb-0">azharbayev@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center p-3">
-                            <i class="bi bi-map"></i>
-                            <div class="px-2">
-                                <h6 class="fw-bold mb-0">Location</h6>
-                                <p class="text-muted mb-0">Abylay Khan, 1/1</p>
-                            </div>
+                    </div>
+                    <div class="d-flex align-items-center p-3">
+                        <i class="bi bi-map"></i>
+                        <div class="px-3">
+                            <h6 class="fw-bold mb-0">Location</h6>
+                            <p class="text-muted mb-0">Abylay Khan, 1/1</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="border rounded border-white d-flex flex-column justify-content-between align-items-center flex-lg-row bg-primary-gradient p-4 p-lg-5">
+            <div class="text-center text-lg-start py-3 py-lg-1">
+                <h2 class="fw-bold mb-2">Subscribe to our newsletter</h2>
+                <p>Imperdiet consectetur dolor.</p>
+            </div>
+            <div class="d-flex justify-content-center flex-wrap flex-lg-nowrap">
+                <div class="my-2"><input class="border rounded-pill shadow-sm form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="my-2"><button class="btn btn-primary shadow ms-2 subscribe-btn" type="submit">Subscribe</button></div>
             </div>
         </div>
     </section>
